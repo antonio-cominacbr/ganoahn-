@@ -1,0 +1,77 @@
+body{
+    background-color: rgb(46, 41, 41);
+    background-image: url(/img/pentagrama-branco.jpg);
+    background-size: 7%;
+
+}
+
+.cabeçalio{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(221, 4, 4);
+    border: 10px solid rgb(221, 4, 4);
+    margin: 0 -10px;
+
+}
+
+
+
+
+.cadastro{
+    width: 150px;
+    height: 40px;
+    background-color: rgb(230, 200, 200);
+    border: 2.5px solid black;
+    border-radius: 400px;
+    bottom: 0 auto;
+    margin: 10px auto;
+    position: absolute;
+    right: 180px;
+    animation: cadastro-entrada 4s;
+}
+
+.perfil{
+     color: rgb(255, 0, 0);
+     font-size: 30px;
+}
+
+
+@keyframes cadastro-entrada{
+from{
+   right: 100%;
+}
+
+to{
+   right: 180px;
+}
+}
+
+
+.entrar{
+    width: 150px;
+    height: 40px;
+    background-color: rgb(221, 4, 4);
+    border-radius: 400px;
+    border: 2.5px solid white;
+    position: absolute;
+    right: 20px;
+    animation: entrar-entrada 4s;
+    margin: 10px auto;
+    
+}
+
+@keyframes entrar-entrada{
+    from{
+       right: 100%;
+    }
+ 
+    to{
+       right: 20px;
+    }
+  }
+
+  .logo{
+      margin: -58.5px -20px;
+      width: 315px;
+      height: 175px;
+  }
